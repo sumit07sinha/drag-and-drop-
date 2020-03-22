@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Drag and Drop</title>
+    <style>
+        body  {
+            margin:0;
+            padding: 0;
+            background-color: blue;
+        }
+        .image{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            background-image: url('https://source.unsplash.com/random/150x150');
+            border: solid 1px black;
+            background-color: white;
+            display: inline-block;
+        }
+        .empty{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            border: solid 1px black;
+            background-color: white;
+            display: inline-block;
+        }
+        .hovered{
+            background-color: grey;
+            border-style: dashed;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="image" draggable="true"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+</body>
+</html>
